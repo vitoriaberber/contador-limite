@@ -1,12 +1,31 @@
-# React + Vite
+# 🔢 Projeto: **Contador Limite**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um contador simples desenvolvido com React que possui um limite máximo de 10 cliques. Quando o limite é atingido, o botão de contagem é desativado. Também há um botão de recomeçar que redefine o contador para zero, permitindo reiniciar a contagem do início.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tecnologias utilizadas
 
-## Expanding the ESLint configuration
+- React
+- Vite
+- CSS Module
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ⚙️ Funcionalidades
+
+- ✅ Contagem de cliques a partir de 0 até o limite de 10
+- ✅ Bloqueio automático do botão quando o limite é alcançado
+- ✅ Botão de recomeçar que reinicia a contagem
+- ✅ Feedback visual ao atingir o limite
+- ✅ Estilização com CSS Modules
+
+---
+
+## 🖥️ Como rodar o projeto localmente
+ git clone https://github.com/vitoriaberber/contador-limite.git
+
+ - Instale as dependências:
+npm install
+  - Rode o projeto:
+npm run dev
